@@ -1,0 +1,35 @@
+
+        /* Stiluri CSS pentru afișarea datelor în format grid */
+        .car-listings {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .car-item {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .car-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        head button{
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 1 px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+            align-self: flex-end;
+            width: min-content;
+        }
+        
+        header button:hover {
+            background-color: #008cff;
+        }
